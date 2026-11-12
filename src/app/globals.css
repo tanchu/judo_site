@@ -13,6 +13,8 @@
   --color-primary-soft: #e8edf4;
   --color-success: #1b6e3a;
   --color-success-soft: #e6f3ea;
+  --color-warning: #8a5300;
+  --color-warning-soft: #fdf1dc;
   --font-body: var(--font-noto-sans), system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 

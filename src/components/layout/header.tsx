@@ -4,6 +4,8 @@ import { getTranslations } from 'next-intl/server';
 const NAV = [
   { href: '/techniques/', key: 'techniques' },
   { href: '/quiz/', key: 'quiz' },
+  { href: '/progress/', key: 'progress' },
+  { href: '/glossary/', key: 'glossary' },
   { href: '/about/', key: 'about' },
 ] as const;
 
@@ -27,7 +29,7 @@ export async function Header() {
           {t('meta.siteName')}
         </Link>
         <nav aria-label={t('nav.home')}>
-          <ul className="flex gap-5">
+          <ul className="flex flex-wrap gap-x-5 gap-y-2">
             {NAV.map((item) => (
               <li key={item.key}>
                 <Link

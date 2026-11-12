@@ -11,6 +11,11 @@ const PAGES = [
   '/gokyo/1/',
   '/sets/habukareta/',
   '/quiz/',
+  '/progress/',
+  '/progress/checklist/',
+  '/progress/my-list/',
+  '/glossary/',
+  '/etiquette/',
   '/about/',
 ];
 
