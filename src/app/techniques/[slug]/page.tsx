@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { PageHeader } from '@/components/page-header';
 import { Section } from '@/components/section';
 import { getAllTechniques, getTechnique } from '@/lib/dataset';
+import { RIGHT_GRIP_NOTE } from '@/lib/dataset/labels';
+import { Note } from './_components/note';
 import { Facts } from './_components/facts';
 import { Steps } from './_components/steps';
 import { Video } from './_components/video';
@@ -35,6 +37,7 @@ export default async function TechniquePage({ params }: Props) {
     <article>
       <PageHeader
         title={t.name}
+        titleAside={t.kanji ? <span lang="ja">{t.kanji}</span> : undefined}
         subtitle={(
           <>
             {t.translation.ru}
@@ -45,15 +48,9 @@ export default async function TechniquePage({ params }: Props) {
           </>
         )}
       />
-      {t.prohibited && (
-        <p
-          className="
-            mb-6 rounded-lg bg-accent-soft p-4 font-semibold text-accent
-          "
-        >
-          {`Внимание: ${t.prohibited}.`}
-        </p>
-      )}
+      {t.prohibited && <Note tone="danger" title={`Внимание: ${t.prohibited}.`} />}
+      {t.safetyNote && <Note tone="danger" title="Безопасность">{t.safetyNote.ru}</Note>}
+      {t.competitionNote && <Note tone="info" title="Правила соревнований">{t.competitionNote}</Note>}
       <Facts technique={t} />
       {t.videoUrl && (
         <Section title="Видео">
@@ -61,8 +58,12 @@ export default async function TechniquePage({ params }: Props) {
         </Section>
       )}
       {t.steps ? (
-        <Section title="Как выполнять">
+        <Section title="Как выполнять" description={t.category === 'nage-waza' || t.category === 'katame-waza' ? RIGHT_GRIP_NOTE : undefined}>
           <Steps steps={t.steps.ru} isThrow={t.category === 'nage-waza'} />
+        </Section>
+      ) : t.description ? (
+        <Section title="Описание">
+          <p>{t.description.ru}</p>
         </Section>
       ) : (
         <p className="mt-10 text-text-muted">Описание шагов для этой техники пока готовится.</p>

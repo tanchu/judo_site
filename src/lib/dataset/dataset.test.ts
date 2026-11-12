@@ -6,6 +6,7 @@ import {
   getGokyoTechniques,
   getOfficialTechniques,
   getTechnique,
+  getTechniquesBySet,
 } from './index';
 
 test('официальный список Кодокана — 100 техник: 68 нагэ-вадза и 32 катамэ-вадза', () => {
@@ -42,4 +43,33 @@ test('шаги описаны тремя пунктами: кузуси, цук�
 test('поиск по slug', () => {
   assert.equal(getTechnique('o-soto-gari')?.name, 'O-soto-gari');
   assert.equal(getTechnique('nope'), undefined);
+});
+
+test('v0.3: шаги у всех, кроме запрещённых; у запрещённых — описание', () => {
+  for (const t of getAllTechniques()) {
+    if (t.prohibited) {
+      assert.equal(t.steps, undefined, t.slug);
+      assert.ok(t.description?.ru, t.slug);
+    } else {
+      assert.ok(t.steps && t.commonMistake, t.slug);
+    }
+  }
+});
+
+test('наборы бросков: 40 Гокё, 8 Хабукарэта, 20 Синмэйсё — вместе все 68 нагэ-вадза', () => {
+  assert.equal(getTechniquesBySet('gokyo').length, 40);
+  assert.equal(getTechniquesBySet('habukareta').length, 8);
+  assert.equal(getTechniquesBySet('shinmeisho').length, 20);
+  for (const t of getOfficialTechniques().filter((x) => x.category === 'nage-waza')) {
+    assert.ok(t.set, t.slug);
+    assert.equal(t.set === 'gokyo', t.gokyo !== undefined, t.slug);
+  }
+});
+
+test('у удушений и болевых есть правила безопасности', () => {
+  for (const t of getAllTechniques()) {
+    if ((t.group === 'shime-waza' || t.group === 'kansetsu-waza') && !t.prohibited) {
+      assert.ok(t.safetyNote?.ru, t.slug);
+    }
+  }
 });

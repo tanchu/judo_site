@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 import type { TechniqueEntry } from '@/lib/dataset/types';
-import { CATEGORY_LABELS, GROUP_LABELS } from '@/lib/dataset/labels';
+import { CATEGORY_LABELS, GROUP_LABELS, SET_LABELS } from '@/lib/dataset/labels';
 
 type Props = {
   technique: TechniqueEntry;
@@ -35,6 +35,16 @@ export function Facts({ technique: t }: Props) {
       value: (
         <Link href={`/gokyo/${t.gokyo}/`} className="text-primary underline">
           {`${t.gokyo}-я группа`}
+        </Link>
+      ),
+    });
+  }
+  if (t.set && t.set !== 'gokyo') {
+    rows.push({
+      term: 'Набор',
+      value: (
+        <Link href={`/sets/${t.set}/`} className="text-primary underline">
+          {SET_LABELS[t.set].name}
         </Link>
       ),
     });

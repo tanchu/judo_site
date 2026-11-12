@@ -1,7 +1,18 @@
 import { AxeBuilder } from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 
-const PAGES = ['/', '/techniques/', '/techniques/o-soto-gari/', '/groups/osaekomi-waza/', '/gokyo/1/', '/quiz/', '/about/'];
+const PAGES = [
+  '/',
+  '/techniques/',
+  '/techniques/o-soto-gari/',
+  '/techniques/nami-juji-jime/',
+  '/techniques/do-jime/',
+  '/groups/osaekomi-waza/',
+  '/gokyo/1/',
+  '/sets/habukareta/',
+  '/quiz/',
+  '/about/',
+];
 
 for (const path of PAGES) {
   test(`${path}: открывается и без нарушений WCAG 2.2 AA`, async ({ page }) => {

@@ -24,18 +24,13 @@ export function TechniqueList({ techniques }: Props) {
               hover:border-primary hover:shadow-sm
             "
           >
-            <span className="block font-semibold text-primary">{t.name}</span>
+            <span className="flex items-baseline justify-between gap-2">
+              <span className="font-semibold text-primary">{t.name}</span>
+              {t.kanji && (
+                <span lang="ja" className="text-sm text-text-muted">{t.kanji}</span>
+              )}
+            </span>
             <span className="block text-sm text-text-muted">{t.translation.ru}</span>
-            {t.steps && (
-              <span
-                className="
-                  mt-2 inline-block rounded-sm bg-success-soft px-2 py-0.5
-                  text-xs text-success
-                "
-              >
-                Есть описание
-              </span>
-            )}
           </Link>
         </li>
       ))}
