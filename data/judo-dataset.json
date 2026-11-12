@@ -1,0 +1,1632 @@
+{
+  "meta": {
+    "version": "0.2",
+    "basis": "Официальная классификация Кодокана / IJF: 68 nage-waza + 32 katame-waza",
+    "counts": {
+      "official": 100,
+      "fundamentals": 16,
+      "supplementary": 19,
+      "withSteps": 17
+    },
+    "note": "Пояса не привязаны: требования по поясам задаются национальными федерациями и подключаются отдельным слоем (syllabi). steps = [kuzushi, tsukuri, kake] для бросков. Тексты собственные, требуют вычитки тренером."
+  },
+  "gokyoNoWaza": [
+    {
+      "group": 1,
+      "techniques": [
+        "seoi-nage",
+        "uki-goshi",
+        "o-goshi",
+        "de-ashi-harai",
+        "hiza-guruma",
+        "sasae-tsurikomi-ashi",
+        "o-soto-gari",
+        "o-uchi-gari"
+      ]
+    },
+    {
+      "group": 2,
+      "techniques": [
+        "tai-otoshi",
+        "koshi-guruma",
+        "tsurikomi-goshi",
+        "harai-goshi",
+        "okuri-ashi-harai",
+        "uchi-mata",
+        "ko-soto-gari",
+        "ko-uchi-gari"
+      ]
+    },
+    {
+      "group": 3,
+      "techniques": [
+        "kata-guruma",
+        "tsuri-goshi",
+        "hane-goshi",
+        "ko-soto-gake",
+        "ashi-guruma",
+        "harai-tsurikomi-ashi",
+        "tomoe-nage",
+        "yoko-otoshi"
+      ]
+    },
+    {
+      "group": 4,
+      "techniques": [
+        "sukui-nage",
+        "uki-otoshi",
+        "utsuri-goshi",
+        "o-guruma",
+        "sumi-gaeshi",
+        "tani-otoshi",
+        "hane-makikomi",
+        "soto-makikomi"
+      ]
+    },
+    {
+      "group": 5,
+      "techniques": [
+        "sumi-otoshi",
+        "ushiro-goshi",
+        "o-soto-guruma",
+        "ura-nage",
+        "yoko-wakare",
+        "yoko-guruma",
+        "yoko-gake",
+        "uki-waza"
+      ]
+    }
+  ],
+  "techniques": [
+    {
+      "slug": "seoi-nage",
+      "name": "Seoi-nage",
+      "translation": {
+        "ru": "Бросок через спину",
+        "en": "Shoulder throw"
+      },
+      "category": "nage-waza",
+      "group": "te-waza",
+      "gokyo": 1,
+      "steps": {
+        "ru": [
+          "Тяните уке вперёд-вверх за рукав и отворот, поднимая на носки.",
+          "Развернитесь спиной на согнутых ногах, локоть руки на отвороте заведите под подмышку уке, спина плотно к его груди.",
+          "Выпрямляя ноги и наклоняясь вперёд, прокатите уке через спину, продолжая тягу за рукав."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Потеря тяги при повороте: между спиной и грудью уке остаётся зазор, и бросок превращается в силовое перетягивание."
+      }
+    },
+    {
+      "slug": "ippon-seoi-nage",
+      "name": "Ippon-seoi-nage",
+      "translation": {
+        "ru": "Бросок через спину с захватом одной руки",
+        "en": "One-arm shoulder throw"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "seoi-otoshi",
+      "name": "Seoi-otoshi",
+      "translation": {
+        "ru": "Бросок через спину с опусканием на колено",
+        "en": "Shoulder drop"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "tai-otoshi",
+      "name": "Tai-otoshi",
+      "translation": {
+        "ru": "Передняя подножка",
+        "en": "Body drop"
+      },
+      "category": "nage-waza",
+      "group": "te-waza",
+      "gokyo": 2
+    },
+    {
+      "slug": "kata-guruma",
+      "name": "Kata-guruma",
+      "translation": {
+        "ru": "Бросок через плечи («мельница»)",
+        "en": "Shoulder wheel"
+      },
+      "category": "nage-waza",
+      "group": "te-waza",
+      "gokyo": 3
+    },
+    {
+      "slug": "sukui-nage",
+      "name": "Sukui-nage",
+      "translation": {
+        "ru": "Бросок подхватом ног сзади («черпак»)",
+        "en": "Scooping throw"
+      },
+      "category": "nage-waza",
+      "group": "te-waza",
+      "gokyo": 4
+    },
+    {
+      "slug": "obi-otoshi",
+      "name": "Obi-otoshi",
+      "translation": {
+        "ru": "Опрокидывание захватом пояса",
+        "en": "Belt drop"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "uki-otoshi",
+      "name": "Uki-otoshi",
+      "translation": {
+        "ru": "Бросок выведением из равновесия вперёд",
+        "en": "Floating drop"
+      },
+      "category": "nage-waza",
+      "group": "te-waza",
+      "gokyo": 4
+    },
+    {
+      "slug": "sumi-otoshi",
+      "name": "Sumi-otoshi",
+      "translation": {
+        "ru": "Бросок выведением из равновесия назад",
+        "en": "Corner drop"
+      },
+      "category": "nage-waza",
+      "group": "te-waza",
+      "gokyo": 5
+    },
+    {
+      "slug": "yama-arashi",
+      "name": "Yama-arashi",
+      "translation": {
+        "ru": "«Горная буря»",
+        "en": "Mountain storm"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "obi-tori-gaeshi",
+      "name": "Obi-tori-gaeshi",
+      "translation": {
+        "ru": "Переворот захватом пояса",
+        "en": "Belt-grab reversal"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "morote-gari",
+      "name": "Morote-gari",
+      "translation": {
+        "ru": "Бросок захватом двух ног",
+        "en": "Two-hand reap"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "kuchiki-taoshi",
+      "name": "Kuchiki-taoshi",
+      "translation": {
+        "ru": "Бросок захватом одной ноги",
+        "en": "One-hand drop"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "kibisu-gaeshi",
+      "name": "Kibisu-gaeshi",
+      "translation": {
+        "ru": "Бросок захватом пятки",
+        "en": "Heel trip"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "uchi-mata-sukashi",
+      "name": "Uchi-mata-sukashi",
+      "translation": {
+        "ru": "Уклон от подхвата изнутри со скручиванием",
+        "en": "Inner thigh slip"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "ko-uchi-gaeshi",
+      "name": "Ko-uchi-gaeshi",
+      "translation": {
+        "ru": "Контрприём от подсечки изнутри",
+        "en": "Minor inner reap counter"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "uki-goshi",
+      "name": "Uki-goshi",
+      "translation": {
+        "ru": "Бросок скручиванием вокруг бедра",
+        "en": "Floating hip throw"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza",
+      "gokyo": 1
+    },
+    {
+      "slug": "o-goshi",
+      "name": "O-goshi",
+      "translation": {
+        "ru": "Большой бросок через бедро",
+        "en": "Major hip throw"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza",
+      "gokyo": 1,
+      "steps": {
+        "ru": [
+          "Тяните уке вперёд-вверх, поднимая его на носки.",
+          "Разворачиваясь спиной, обхватите рукой поясницу уке и поставьте таз ниже его пояса, колени согнуты.",
+          "Выпрямляя ноги, поднимите уке на бедро и проверните вперёд тягой за рукав."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Вход на прямых ногах и с тазом сбоку: уке остаётся стоять, а не оказывается на бедре."
+      }
+    },
+    {
+      "slug": "koshi-guruma",
+      "name": "Koshi-guruma",
+      "translation": {
+        "ru": "Бросок через бедро с захватом шеи",
+        "en": "Hip wheel"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza",
+      "gokyo": 2
+    },
+    {
+      "slug": "tsurikomi-goshi",
+      "name": "Tsurikomi-goshi",
+      "translation": {
+        "ru": "Бросок через бедро с захватом отворота",
+        "en": "Lift-pull hip throw"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza",
+      "gokyo": 2
+    },
+    {
+      "slug": "sode-tsurikomi-goshi",
+      "name": "Sode-tsurikomi-goshi",
+      "translation": {
+        "ru": "Бросок через бедро с захватом рукава",
+        "en": "Sleeve lift-pull hip throw"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza"
+    },
+    {
+      "slug": "harai-goshi",
+      "name": "Harai-goshi",
+      "translation": {
+        "ru": "Подхват бедром под две ноги",
+        "en": "Sweeping hip throw"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza",
+      "gokyo": 2
+    },
+    {
+      "slug": "tsuri-goshi",
+      "name": "Tsuri-goshi",
+      "translation": {
+        "ru": "Бросок через бедро с захватом пояса",
+        "en": "Lifting hip throw"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza",
+      "gokyo": 3
+    },
+    {
+      "slug": "hane-goshi",
+      "name": "Hane-goshi",
+      "translation": {
+        "ru": "Подсад бедром и голенью изнутри",
+        "en": "Spring hip throw"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza",
+      "gokyo": 3
+    },
+    {
+      "slug": "utsuri-goshi",
+      "name": "Utsuri-goshi",
+      "translation": {
+        "ru": "Обратный бросок через бедро с подсадом",
+        "en": "Hip shift"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza",
+      "gokyo": 4
+    },
+    {
+      "slug": "ushiro-goshi",
+      "name": "Ushiro-goshi",
+      "translation": {
+        "ru": "Подсад опрокидыванием назад",
+        "en": "Rear hip throw"
+      },
+      "category": "nage-waza",
+      "group": "koshi-waza",
+      "gokyo": 5
+    },
+    {
+      "slug": "de-ashi-harai",
+      "name": "De-ashi-harai",
+      "translation": {
+        "ru": "Боковая подсечка под выставленную ногу",
+        "en": "Advancing foot sweep"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 1
+    },
+    {
+      "slug": "okuri-ashi-harai",
+      "name": "Okuri-ashi-harai",
+      "translation": {
+        "ru": "Боковая подсечка в темп шагов",
+        "en": "Sliding foot sweep"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 2
+    },
+    {
+      "slug": "o-soto-otoshi",
+      "name": "O-soto-otoshi",
+      "translation": {
+        "ru": "Задняя подножка",
+        "en": "Major outer drop"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza"
+    },
+    {
+      "slug": "hiza-guruma",
+      "name": "Hiza-guruma",
+      "translation": {
+        "ru": "Подсечка в колено",
+        "en": "Knee wheel"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 1
+    },
+    {
+      "slug": "uchi-mata",
+      "name": "Uchi-mata",
+      "translation": {
+        "ru": "Подхват изнутри под одну ногу",
+        "en": "Inner thigh throw"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 2
+    },
+    {
+      "slug": "tsubame-gaeshi",
+      "name": "Tsubame-gaeshi",
+      "translation": {
+        "ru": "Контрподсечка «ласточка»",
+        "en": "Swallow counter"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza"
+    },
+    {
+      "slug": "sasae-tsurikomi-ashi",
+      "name": "Sasae-tsurikomi-ashi",
+      "translation": {
+        "ru": "Передняя подсечка под выставленную ногу",
+        "en": "Supporting lift-pull foot throw"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 1
+    },
+    {
+      "slug": "ko-soto-gake",
+      "name": "Ko-soto-gake",
+      "translation": {
+        "ru": "Зацеп снаружи",
+        "en": "Minor outer hook"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 3
+    },
+    {
+      "slug": "o-soto-gaeshi",
+      "name": "O-soto-gaeshi",
+      "translation": {
+        "ru": "Контрприём от большого наружного отхвата",
+        "en": "Major outer reap counter"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza"
+    },
+    {
+      "slug": "o-soto-gari",
+      "name": "O-soto-gari",
+      "translation": {
+        "ru": "Большой наружный отхват",
+        "en": "Major outer reap"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 1,
+      "steps": {
+        "ru": [
+          "Тяните уке на себя и в сторону, чтобы весь его вес встал на одну ногу (на пятку).",
+          "Шагните опорной ногой рядом со стопой уке, грудь прижмите к его груди, корпус наклоните вперёд.",
+          "Махом ноги назад отхватите нагруженную ногу под колено и, продолжая наклон, бросьте уке на спину."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Атака с дистанции с отклонённым назад корпусом: уке сохраняет равновесие и легко контратакует."
+      }
+    },
+    {
+      "slug": "ashi-guruma",
+      "name": "Ashi-guruma",
+      "translation": {
+        "ru": "Бросок через ногу скручиванием",
+        "en": "Leg wheel"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 3
+    },
+    {
+      "slug": "o-uchi-gaeshi",
+      "name": "O-uchi-gaeshi",
+      "translation": {
+        "ru": "Контрприём от большого зацепа изнутри",
+        "en": "Major inner reap counter"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza"
+    },
+    {
+      "slug": "o-uchi-gari",
+      "name": "O-uchi-gari",
+      "translation": {
+        "ru": "Большой зацеп изнутри",
+        "en": "Major inner reap"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 1,
+      "steps": {
+        "ru": [
+          "Толкайте уке назад и по диагонали, нагружая ногу, которую будете атаковать.",
+          "Подшагните между его ног, грудь прижмите к груди, атакующую ногу заведите изнутри за голень.",
+          "Круговым движением отведите ногу уке в сторону и продолжайте давление корпусом вперёд-вниз до падения."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Зацеп одной ногой без давления корпусом: уке просто переставляет ногу."
+      }
+    },
+    {
+      "slug": "harai-tsurikomi-ashi",
+      "name": "Harai-tsurikomi-ashi",
+      "translation": {
+        "ru": "Передняя подсечка под отставленную ногу",
+        "en": "Lift-pull foot sweep"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 3
+    },
+    {
+      "slug": "hane-goshi-gaeshi",
+      "name": "Hane-goshi-gaeshi",
+      "translation": {
+        "ru": "Контрприём от подсада бедром и голенью",
+        "en": "Spring hip throw counter"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza"
+    },
+    {
+      "slug": "ko-soto-gari",
+      "name": "Ko-soto-gari",
+      "translation": {
+        "ru": "Задняя подсечка",
+        "en": "Minor outer reap"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 2
+    },
+    {
+      "slug": "o-guruma",
+      "name": "O-guruma",
+      "translation": {
+        "ru": "Большое колесо через ногу",
+        "en": "Large wheel"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 4
+    },
+    {
+      "slug": "harai-goshi-gaeshi",
+      "name": "Harai-goshi-gaeshi",
+      "translation": {
+        "ru": "Контрприём от подхвата бедром",
+        "en": "Sweeping hip throw counter"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza"
+    },
+    {
+      "slug": "ko-uchi-gari",
+      "name": "Ko-uchi-gari",
+      "translation": {
+        "ru": "Подсечка изнутри",
+        "en": "Minor inner reap"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 2
+    },
+    {
+      "slug": "o-soto-guruma",
+      "name": "O-soto-guruma",
+      "translation": {
+        "ru": "Отхват под две ноги",
+        "en": "Major outer wheel"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza",
+      "gokyo": 5
+    },
+    {
+      "slug": "uchi-mata-gaeshi",
+      "name": "Uchi-mata-gaeshi",
+      "translation": {
+        "ru": "Контрприём от подхвата изнутри",
+        "en": "Inner thigh throw counter"
+      },
+      "category": "nage-waza",
+      "group": "ashi-waza"
+    },
+    {
+      "slug": "tomoe-nage",
+      "name": "Tomoe-nage",
+      "translation": {
+        "ru": "Бросок через голову с упором стопой в живот",
+        "en": "Circle throw"
+      },
+      "category": "nage-waza",
+      "group": "ma-sutemi-waza",
+      "gokyo": 3
+    },
+    {
+      "slug": "sumi-gaeshi",
+      "name": "Sumi-gaeshi",
+      "translation": {
+        "ru": "Бросок через голову подсадом голенью",
+        "en": "Corner reversal"
+      },
+      "category": "nage-waza",
+      "group": "ma-sutemi-waza",
+      "gokyo": 4
+    },
+    {
+      "slug": "hikikomi-gaeshi",
+      "name": "Hikikomi-gaeshi",
+      "translation": {
+        "ru": "Бросок через голову с втягиванием",
+        "en": "Pulling-in reversal"
+      },
+      "category": "nage-waza",
+      "group": "ma-sutemi-waza"
+    },
+    {
+      "slug": "tawara-gaeshi",
+      "name": "Tawara-gaeshi",
+      "translation": {
+        "ru": "Бросок через голову с обратным захватом туловища",
+        "en": "Rice-bale reversal"
+      },
+      "category": "nage-waza",
+      "group": "ma-sutemi-waza"
+    },
+    {
+      "slug": "ura-nage",
+      "name": "Ura-nage",
+      "translation": {
+        "ru": "Бросок через грудь прогибом",
+        "en": "Rear throw"
+      },
+      "category": "nage-waza",
+      "group": "ma-sutemi-waza",
+      "gokyo": 5
+    },
+    {
+      "slug": "yoko-otoshi",
+      "name": "Yoko-otoshi",
+      "translation": {
+        "ru": "Боковая подножка с падением",
+        "en": "Side drop"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "gokyo": 3
+    },
+    {
+      "slug": "tani-otoshi",
+      "name": "Tani-otoshi",
+      "translation": {
+        "ru": "Задняя подножка с падением",
+        "en": "Valley drop"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "gokyo": 4
+    },
+    {
+      "slug": "hane-makikomi",
+      "name": "Hane-makikomi",
+      "translation": {
+        "ru": "Подсад бедром и голенью с захватом руки под плечо в падении",
+        "en": "Springing wraparound throw"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "gokyo": 4
+    },
+    {
+      "slug": "soto-makikomi",
+      "name": "Soto-makikomi",
+      "translation": {
+        "ru": "Бросок вращением с захватом руки под плечо",
+        "en": "Outer wraparound throw"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "gokyo": 4
+    },
+    {
+      "slug": "uchi-makikomi",
+      "name": "Uchi-makikomi",
+      "translation": {
+        "ru": "Бросок вращением внутрь с захватом руки",
+        "en": "Inner wraparound throw"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza"
+    },
+    {
+      "slug": "yoko-wakare",
+      "name": "Yoko-wakare",
+      "translation": {
+        "ru": "Подножка через туловище с падением",
+        "en": "Side separation"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "gokyo": 5
+    },
+    {
+      "slug": "yoko-guruma",
+      "name": "Yoko-guruma",
+      "translation": {
+        "ru": "Бросок через грудь вращением",
+        "en": "Side wheel"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "gokyo": 5
+    },
+    {
+      "slug": "yoko-gake",
+      "name": "Yoko-gake",
+      "translation": {
+        "ru": "Боковая подсечка с падением",
+        "en": "Side hook"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "gokyo": 5
+    },
+    {
+      "slug": "daki-wakare",
+      "name": "Daki-wakare",
+      "translation": {
+        "ru": "Бросок с обхватом туловища сзади",
+        "en": "Rear trunk turnover"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza"
+    },
+    {
+      "slug": "uchi-mata-makikomi",
+      "name": "Uchi-mata-makikomi",
+      "translation": {
+        "ru": "Подхват изнутри с падением",
+        "en": "Inner thigh wraparound throw"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza"
+    },
+    {
+      "slug": "harai-makikomi",
+      "name": "Harai-makikomi",
+      "translation": {
+        "ru": "Подхват бедром с захватом руки под плечо в падении",
+        "en": "Sweeping wraparound throw"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza"
+    },
+    {
+      "slug": "ko-uchi-makikomi",
+      "name": "Ko-uchi-makikomi",
+      "translation": {
+        "ru": "Подсечка изнутри с захватом ноги в падении",
+        "en": "Minor inner wraparound throw"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza"
+    },
+    {
+      "slug": "o-soto-makikomi",
+      "name": "O-soto-makikomi",
+      "translation": {
+        "ru": "Отхват с падением",
+        "en": "Major outer wraparound throw"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza"
+    },
+    {
+      "slug": "uki-waza",
+      "name": "Uki-waza",
+      "translation": {
+        "ru": "Передняя подножка с падением",
+        "en": "Floating technique"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "gokyo": 5
+    },
+    {
+      "slug": "kani-basami",
+      "name": "Kani-basami",
+      "translation": {
+        "ru": "«Ножницы»",
+        "en": "Scissors throw"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "prohibited": "запрещён"
+    },
+    {
+      "slug": "kawazu-gake",
+      "name": "Kawazu-gake",
+      "translation": {
+        "ru": "Обвив ноги",
+        "en": "One-leg entanglement"
+      },
+      "category": "nage-waza",
+      "group": "yoko-sutemi-waza",
+      "prohibited": "запрещён"
+    },
+    {
+      "slug": "kesa-gatame",
+      "name": "Kesa-gatame",
+      "translation": {
+        "ru": "Удержание сбоку",
+        "en": "Scarf hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza",
+      "steps": {
+        "ru": [
+          "Сядьте сбоку от уке, бедро плотно к его боку; его ближнюю руку зажмите под своей подмышкой.",
+          "Второй рукой обхватите шею уке, грудью придавите его грудь.",
+          "Ноги широко разведите: ближняя вперёд, дальняя назад; голову держите низко."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Высоко поднятый корпус и узко поставленные ноги: уке легко перекатывает тори через себя."
+      },
+      "aliases": [
+        "Hon-kesa-gatame"
+      ]
+    },
+    {
+      "slug": "kuzure-kesa-gatame",
+      "name": "Kuzure-kesa-gatame",
+      "translation": {
+        "ru": "Удержание сбоку с захватом из-под руки",
+        "en": "Modified scarf hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "ushiro-kesa-gatame",
+      "name": "Ushiro-kesa-gatame",
+      "translation": {
+        "ru": "Обратное удержание сбоку",
+        "en": "Reverse scarf hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "kata-gatame",
+      "name": "Kata-gatame",
+      "translation": {
+        "ru": "Удержание с фиксацией плеча головой",
+        "en": "Shoulder hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "kami-shiho-gatame",
+      "name": "Kami-shiho-gatame",
+      "translation": {
+        "ru": "Удержание со стороны головы",
+        "en": "Upper four-corner hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza",
+      "steps": {
+        "ru": [
+          "Расположитесь со стороны головы уке, грудью накройте его грудь.",
+          "Обе руки проведите под плечами уке и возьмите пояс с двух сторон, локти прижмите к его бокам.",
+          "Таз опустите, ноги разведите (или подтяните колени), голову поверните набок и прижмите к его животу."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Слабый захват пояса и разведённые локти: уке проворачивается и выходит на живот."
+      }
+    },
+    {
+      "slug": "kuzure-kami-shiho-gatame",
+      "name": "Kuzure-kami-shiho-gatame",
+      "translation": {
+        "ru": "Удержание со стороны головы с захватом руки",
+        "en": "Modified upper four-corner hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "yoko-shiho-gatame",
+      "name": "Yoko-shiho-gatame",
+      "translation": {
+        "ru": "Удержание поперёк",
+        "en": "Side four-corner hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza",
+      "steps": {
+        "ru": [
+          "Лягте грудью поперёк груди уке под прямым углом к нему.",
+          "Одну руку проведите под шеей к дальнему отвороту, вторую — между ног к поясу или штанам.",
+          "Колени подтяните к боку уке или вытяните ноги и опустите таз, прижимая его весом к ковру."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Высокий таз и вес на собственных коленях: уке возвращает колено и ставит ноги между собой и тори."
+      }
+    },
+    {
+      "slug": "tate-shiho-gatame",
+      "name": "Tate-shiho-gatame",
+      "translation": {
+        "ru": "Удержание верхом",
+        "en": "Straight four-corner hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "uki-gatame",
+      "name": "Uki-gatame",
+      "translation": {
+        "ru": "«Плавающее» удержание",
+        "en": "Floating hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "ura-gatame",
+      "name": "Ura-gatame",
+      "translation": {
+        "ru": "Обратное удержание спиной к уке",
+        "en": "Back hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "nami-juji-jime",
+      "name": "Nami-juji-jime",
+      "translation": {
+        "ru": "Удушение спереди скрещивая руки, ладони вниз",
+        "en": "Normal cross choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza"
+    },
+    {
+      "slug": "gyaku-juji-jime",
+      "name": "Gyaku-juji-jime",
+      "translation": {
+        "ru": "Удушение спереди скрещивая руки, ладони вверх",
+        "en": "Reverse cross choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza"
+    },
+    {
+      "slug": "kata-juji-jime",
+      "name": "Kata-juji-jime",
+      "translation": {
+        "ru": "Удушение спереди скрещивая руки, одна ладонь вверх, другая вниз",
+        "en": "Half cross choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza"
+    },
+    {
+      "slug": "hadaka-jime",
+      "name": "Hadaka-jime",
+      "translation": {
+        "ru": "Удушение сзади плечом и предплечьем",
+        "en": "Naked choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza"
+    },
+    {
+      "slug": "okuri-eri-jime",
+      "name": "Okuri-eri-jime",
+      "translation": {
+        "ru": "Удушение сзади двумя отворотами",
+        "en": "Sliding collar choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza"
+    },
+    {
+      "slug": "kataha-jime",
+      "name": "Kataha-jime",
+      "translation": {
+        "ru": "Удушение сзади отворотом с выключением руки",
+        "en": "Single-wing choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza",
+      "aliases": [
+        "Kata-ha-jime"
+      ]
+    },
+    {
+      "slug": "katate-jime",
+      "name": "Katate-jime",
+      "translation": {
+        "ru": "Удушение одной рукой",
+        "en": "One-hand choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza"
+    },
+    {
+      "slug": "ryote-jime",
+      "name": "Ryote-jime",
+      "translation": {
+        "ru": "Удушение двумя руками",
+        "en": "Two-hand choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza"
+    },
+    {
+      "slug": "sode-guruma-jime",
+      "name": "Sode-guruma-jime",
+      "translation": {
+        "ru": "Удушение рукавом",
+        "en": "Sleeve wheel choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza"
+    },
+    {
+      "slug": "tsukkomi-jime",
+      "name": "Tsukkomi-jime",
+      "translation": {
+        "ru": "Удушение спереди отворотом толчком",
+        "en": "Thrust choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza",
+      "aliases": [
+        "Tsukomi-jime"
+      ]
+    },
+    {
+      "slug": "sankaku-jime",
+      "name": "Sankaku-jime",
+      "translation": {
+        "ru": "Удушение ногами «треугольник»",
+        "en": "Triangle choke"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza"
+    },
+    {
+      "slug": "do-jime",
+      "name": "Do-jime",
+      "translation": {
+        "ru": "Сдавливание туловища ногами",
+        "en": "Trunk strangle"
+      },
+      "category": "katame-waza",
+      "group": "shime-waza",
+      "prohibited": "запрещён в соревнованиях и рандори"
+    },
+    {
+      "slug": "ude-garami",
+      "name": "Ude-garami",
+      "translation": {
+        "ru": "Узел локтя",
+        "en": "Entangled armlock"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza"
+    },
+    {
+      "slug": "juji-gatame",
+      "name": "Juji-gatame",
+      "translation": {
+        "ru": "Рычаг локтя захватом руки между ног",
+        "en": "Cross armlock"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza",
+      "aliases": [
+        "Ude-hishigi-juji-gatame"
+      ]
+    },
+    {
+      "slug": "ude-gatame",
+      "name": "Ude-gatame",
+      "translation": {
+        "ru": "Рычаг локтя с захватом руки на плечо",
+        "en": "Straight arm crush"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza"
+    },
+    {
+      "slug": "hiza-gatame",
+      "name": "Hiza-gatame",
+      "translation": {
+        "ru": "Рычаг локтя при помощи колена",
+        "en": "Knee armlock"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza"
+    },
+    {
+      "slug": "waki-gatame",
+      "name": "Waki-gatame",
+      "translation": {
+        "ru": "Рычаг локтя захватом руки под плечо",
+        "en": "Armpit armlock"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza"
+    },
+    {
+      "slug": "hara-gatame",
+      "name": "Hara-gatame",
+      "translation": {
+        "ru": "Рычаг локтя через живот",
+        "en": "Stomach armlock"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza"
+    },
+    {
+      "slug": "ashi-gatame",
+      "name": "Ashi-gatame",
+      "translation": {
+        "ru": "Рычаг локтя при помощи ноги",
+        "en": "Leg armlock"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza"
+    },
+    {
+      "slug": "te-gatame",
+      "name": "Te-gatame",
+      "translation": {
+        "ru": "Рычаг локтя руками",
+        "en": "Hand armlock"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza"
+    },
+    {
+      "slug": "sankaku-gatame",
+      "name": "Sankaku-gatame",
+      "translation": {
+        "ru": "Рычаг локтя из «треугольника»",
+        "en": "Triangular armlock"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza"
+    },
+    {
+      "slug": "ashi-garami",
+      "name": "Ashi-garami",
+      "translation": {
+        "ru": "Узел ноги",
+        "en": "Leg entanglement"
+      },
+      "category": "katame-waza",
+      "group": "kansetsu-waza",
+      "prohibited": "запрещён в соревнованиях"
+    }
+  ],
+  "fundamentals": [
+    {
+      "slug": "ushiro-ukemi",
+      "name": "Ushiro-ukemi",
+      "translation": {
+        "ru": "Страховка при падении назад",
+        "en": "Backward breakfall"
+      },
+      "category": "ukemi",
+      "steps": {
+        "ru": [
+          "Из приседа или стойки прижмите подбородок к груди и округлите спину.",
+          "Перекатитесь назад с таза на лопатки, не касаясь ковра головой.",
+          "В момент касания спиной хлопните прямыми руками по татами под углом около 30–45° к корпусу."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Запрокинутая голова и удар затылком; опора на локти вместо хлопка всей рукой."
+      }
+    },
+    {
+      "slug": "yoko-ukemi",
+      "name": "Yoko-ukemi",
+      "translation": {
+        "ru": "Страховка при падении на бок",
+        "en": "Side breakfall"
+      },
+      "category": "ukemi",
+      "steps": {
+        "ru": [
+          "Вынесите одну ногу вперёд-в сторону перед опорной и опускайтесь на согнутой опорной ноге.",
+          "Перекатитесь на бок с бедра на спину, подбородок прижат, свободная рука на поясе.",
+          "Одноимённой рукой хлопните по татами под углом 30–45° к корпусу, ноги слегка разведены."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Падение на локоть или выставленную прямую руку; хлопок слишком далеко от корпуса."
+      }
+    },
+    {
+      "slug": "zenpo-kaiten-ukemi",
+      "name": "Zenpo-kaiten-ukemi (mae-mawari-ukemi)",
+      "translation": {
+        "ru": "Страховка кувырком вперёд",
+        "en": "Forward rolling breakfall"
+      },
+      "category": "ukemi",
+      "steps": {
+        "ru": [
+          "Из стойки с шагом вперёд поставьте руки на ковёр, ведущая рука дугой, пальцы направлены к себе.",
+          "Перекатитесь по линии кисть — предплечье — плечо — спина по диагонали — противоположное бедро.",
+          "Завершите хлопком свободной руки и выходом в положение лёжа на боку или в стойку."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Кувырок через голову по прямой вместо диагонали через плечо; рука подламывается в локте."
+      }
+    },
+    {
+      "slug": "mae-ukemi",
+      "name": "Mae-ukemi",
+      "translation": {
+        "ru": "Страховка при падении вперёд",
+        "en": "Forward breakfall"
+      },
+      "category": "ukemi",
+      "steps": {
+        "ru": [
+          "Падая вперёд, держите корпус прямым, голову поверните в сторону.",
+          "Выставьте перед лицом предплечья, ладони развёрнуты к ковру, локти слегка разведены.",
+          "Приземлитесь одновременно на ладони и предплечья, опираясь на них и на носки; живот и колени ковра не касаются."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Приземление на прямые руки или на колени и живот."
+      }
+    },
+    {
+      "slug": "rei",
+      "name": "Ritsurei and zarei",
+      "translation": {
+        "ru": "Поклон стоя и поклон на коленях",
+        "en": "Standing and kneeling bow"
+      },
+      "category": "basics",
+      "steps": {
+        "ru": [
+          "Ritsurei: пятки вместе, руки вдоль бёдер, наклон корпуса примерно на 30° с прямой спиной, пауза и возврат.",
+          "Zarei: опуститесь сначала на левое колено, затем на правое, сядьте на пятки (сэйдза), спина прямая.",
+          "Положите ладони на ковёр перед коленями, поклонитесь, не отрывая таз от пяток; вставайте с правой ноги."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Поспешный поклон с опущенной головой и согнутой спиной; неверный порядок постановки ног в zarei."
+      }
+    },
+    {
+      "slug": "kumi-kata",
+      "name": "Kumi-kata",
+      "translation": {
+        "ru": "Захваты",
+        "en": "Gripping"
+      },
+      "category": "basics",
+      "steps": {
+        "ru": [
+          "Одной рукой возьмите рукав уке в районе локтя (хикитэ — тянущая рука).",
+          "Другой рукой возьмите отворот на уровне ключицы (цуритэ — поднимающая рука).",
+          "Держите захват пальцами без напряжения в плечах, локти опущены; уметь показать правый и левый захват."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Напряжённые прямые руки: так невозможно ни вывести из равновесия, ни почувствовать движение партнёра."
+      }
+    },
+    {
+      "slug": "kuzushi",
+      "name": "Kuzushi",
+      "translation": {
+        "ru": "Выведение из равновесия",
+        "en": "Off-balancing"
+      },
+      "category": "basics",
+      "steps": {
+        "ru": [
+          "Определите направление, в котором у уке нет опоры (например, вперёд на носки или назад на пятки).",
+          "Работайте всем телом — шагом и поворотом корпуса, а не только руками.",
+          "Доведите уке до положения, когда его вес вышел за площадь опоры, и только тогда начинайте вход."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Попытка бросить без выведения — одной силой рук по устойчиво стоящему партнёру."
+      }
+    },
+    {
+      "slug": "obi",
+      "name": "Obi",
+      "translation": {
+        "ru": "Завязывание пояса",
+        "en": "Tying the belt"
+      },
+      "category": "basics",
+      "steps": {
+        "ru": [
+          "Приложите середину пояса к животу, обведите концы вокруг талии, перекрестив на спине, и выведите вперёд.",
+          "Один конец проведите снизу под оба витка и вытяните вверх.",
+          "Завяжите плоский узел: верхний конец накладывается на нижний и продевается в петлю; концы равной длины смотрят в стороны."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Перекрученные витки на спине и концы разной длины; узел, который развязывается при первом захвате."
+      }
+    },
+    {
+      "slug": "shisei",
+      "name": "Shisei",
+      "translation": {
+        "ru": "Стойки",
+        "en": "Postures"
+      },
+      "category": "basics"
+    },
+    {
+      "slug": "shintai",
+      "name": "Shintai",
+      "translation": {
+        "ru": "Передвижения",
+        "en": "Movement"
+      },
+      "category": "basics"
+    },
+    {
+      "slug": "fusegi-ne-waza",
+      "name": "Fusegi (ne-waza)",
+      "translation": {
+        "ru": "Защита в партере",
+        "en": "Defense on the ground"
+      },
+      "category": "basics"
+    },
+    {
+      "slug": "fusegi-tachi-waza",
+      "name": "Fusegi (tachi-waza)",
+      "translation": {
+        "ru": "Защита в стойке",
+        "en": "Defense standing"
+      },
+      "category": "basics"
+    },
+    {
+      "slug": "tai-sabaki",
+      "name": "Tai-sabaki",
+      "translation": {
+        "ru": "Повороты и перемещения тела",
+        "en": "Body turning"
+      },
+      "category": "basics"
+    },
+    {
+      "slug": "happo-no-kuzushi",
+      "name": "Happo-no-kuzushi",
+      "translation": {
+        "ru": "Выведение из равновесия в 8 направлениях",
+        "en": "Off-balancing in 8 directions"
+      },
+      "category": "basics"
+    },
+    {
+      "slug": "kuzushi-tsukuri-kake",
+      "name": "Kuzushi, tsukuri, kake",
+      "translation": {
+        "ru": "Три фазы броска: выведение, вход, завершение",
+        "en": "Three phases of a throw: off-balance, entry, execution"
+      },
+      "category": "basics"
+    },
+    {
+      "slug": "nogare",
+      "name": "Nogare",
+      "translation": {
+        "ru": "Уходы с удержаний",
+        "en": "Escapes"
+      },
+      "category": "basics"
+    }
+  ],
+  "supplementary": [
+    {
+      "slug": "te-guruma",
+      "name": "Te-guruma",
+      "translation": {
+        "ru": "Боковой переворот",
+        "en": "Hand wheel"
+      },
+      "category": "nage-waza",
+      "group": "te-waza"
+    },
+    {
+      "slug": "makura-kesa-gatame",
+      "name": "Makura-kesa-gatame",
+      "translation": {
+        "ru": "Удержание сбоку с опорой головы на бедро",
+        "en": "Pillow scarf hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "kuzure-yoko-shiho-gatame",
+      "name": "Kuzure-yoko-shiho-gatame",
+      "translation": {
+        "ru": "Вариант удержания поперёк",
+        "en": "Modified side four-corner hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "kuzure-tate-shiho-gatame",
+      "name": "Kuzure-tate-shiho-gatame",
+      "translation": {
+        "ru": "Вариант удержания верхом",
+        "en": "Modified straight four-corner hold"
+      },
+      "category": "katame-waza",
+      "group": "osaekomi-waza"
+    },
+    {
+      "slug": "turnover-all-fours-to-kesa",
+      "name": "Turnover from all fours into kesa-gatame",
+      "translation": {
+        "ru": "Переворот с четверенек в удержание сбоку",
+        "en": "Turnover from all fours into scarf hold"
+      },
+      "category": "ne-waza-drill",
+      "steps": {
+        "ru": [
+          "Встаньте сбоку от уке, стоящего на четвереньках, проведите руки под его грудью к дальней руке.",
+          "Захватите дальнюю руку у локтя и потяните под него, одновременно толкая грудью вперёд.",
+          "Когда уке перекатится на спину, сразу сядьте бедром к его боку и возьмите hon-kesa-gatame."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Пауза после переворота: уке успевает повернуться обратно на живот до фиксации удержания."
+      }
+    },
+    {
+      "slug": "turnover-facedown-to-kami-shiho",
+      "name": "Turnover from face-down into kami-shiho-gatame",
+      "translation": {
+        "ru": "Переворот лежащего на животе в удержание со стороны головы",
+        "en": "Turnover from face-down into upper four-corner hold"
+      },
+      "category": "ne-waza-drill",
+      "steps": {
+        "ru": [
+          "Со стороны головы уке, лежащего на животе, захватите его пояс и дальнюю руку или плечо.",
+          "Поднимая и проворачивая плечо, переверните уке на спину, сами оставаясь со стороны головы.",
+          "Не теряя контакта грудью, проведите руки под плечами к поясу и зафиксируйте kami-shiho-gatame."
+        ]
+      },
+      "commonMistake": {
+        "ru": "Переворот одной силой рук без подсада корпусом; потеря контакта в момент, когда уке оказывается на спине."
+      }
+    },
+    {
+      "slug": "arm-turnover",
+      "name": "Arm turnover",
+      "translation": {
+        "ru": "Переворот захватом руки (уке на животе)",
+        "en": "Arm turnover (uke face-down)"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "belt-turnover",
+      "name": "Belt turnover",
+      "translation": {
+        "ru": "Переворот захватом пояса (уке на животе)",
+        "en": "Belt turnover (uke face-down)"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "nogare-kesa-gatame",
+      "name": "Nogare from kesa-gatame",
+      "translation": {
+        "ru": "Уход с удержания сбоку",
+        "en": "Escape from scarf hold"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "nogare-yoko-shiho-gatame",
+      "name": "Nogare from yoko-shiho-gatame",
+      "translation": {
+        "ru": "Уход с удержания поперёк",
+        "en": "Escape from side four-corner hold"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "nogare-kami-shiho-gatame",
+      "name": "Nogare from kami-shiho-gatame",
+      "translation": {
+        "ru": "Уход с удержания со стороны головы",
+        "en": "Escape from upper four-corner hold"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "nogare-tate-shiho-gatame",
+      "name": "Nogare from tate-shiho-gatame",
+      "translation": {
+        "ru": "Уход с удержания верхом",
+        "en": "Escape from straight four-corner hold"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "nogare-kata-gatame",
+      "name": "Nogare from kata-gatame",
+      "translation": {
+        "ru": "Уход с удержания с фиксацией плеча",
+        "en": "Escape from shoulder hold"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "guard-pass",
+      "name": "Guard pass",
+      "translation": {
+        "ru": "Проход ног (гарда)",
+        "en": "Guard pass"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "guard-pass-to-hold",
+      "name": "Guard pass into a hold-down",
+      "translation": {
+        "ru": "Проход ног с выходом на удержание",
+        "en": "Guard pass into a hold-down"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "guard-pass-to-submission",
+      "name": "Guard pass into an armlock or choke",
+      "translation": {
+        "ru": "Проход ног с выходом на болевой или удушение",
+        "en": "Guard pass into an armlock or choke"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "turnover-to-choke",
+      "name": "Turnover finishing with a choke",
+      "translation": {
+        "ru": "Переворот с выходом на удушение",
+        "en": "Turnover finishing with a choke"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "turnover-to-armlock",
+      "name": "Turnover finishing with an armlock",
+      "translation": {
+        "ru": "Переворот с выходом на болевой",
+        "en": "Turnover finishing with an armlock"
+      },
+      "category": "ne-waza-drill"
+    },
+    {
+      "slug": "guard-defense-finish",
+      "name": "Guard defense with a finish",
+      "translation": {
+        "ru": "Защита из положения снизу с завершением",
+        "en": "Guard defense with a finish"
+      },
+      "category": "ne-waza-drill"
+    }
+  ],
+  "syllabi": []
+}

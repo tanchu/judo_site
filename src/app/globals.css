@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #fbfaf7;
+  --color-surface: #ffffff;
+  --color-text: #1c1b19;
+  --color-text-muted: #5f5c55;
+  --color-border: #e4e0d6;
+  /* Цвета пояса: красный — акцент, тёмно-синий — основной (контраст WCAG AA на светлом фоне). */
+  --color-accent: #b3261e;
+  --color-accent-soft: #fbeceb;
+  --color-primary: #1d3557;
+  --color-primary-soft: #e8edf4;
+  --color-success: #1b6e3a;
+  --color-success-soft: #e6f3ea;
+  --font-body: var(--font-noto-sans), system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+/* Печать карточек на A4 (бриф, стр. 2 — «Печать»). */
+@page {
+  size: A4;
+  margin: 15mm;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+}

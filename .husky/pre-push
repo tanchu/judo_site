@@ -1,0 +1,22 @@
+#!/bin/sh
+# git передаёт в stdin по строке на каждый пушимый ref: <local ref> <local sha> <remote ref> <remote sha>.
+only_tags=1
+while read -r _local_ref _local_sha remote_ref _remote_sha; do
+  # Прямой push в main запрещён — только через PR.
+  if [ "$remote_ref" = "refs/heads/main" ]; then
+    echo "❌  Direct push to main is not allowed."
+    echo "    Create a branch and open a PR instead."
+    exit 1
+  fi
+  case "$remote_ref" in
+    refs/tags/*) ;;
+    *) only_tags=0 ;;
+  esac
+done
+
+[ "$only_tags" = 1 ] && exit 0
+
+pnpm run knip || {
+  echo "❌  knip нашёл неиспользуемый код (см. выше). Удалите его или поправьте knip.json."
+  exit 1
+}
