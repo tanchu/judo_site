@@ -32,10 +32,6 @@ export function beltRank(id: BeltId): number {
   return BELTS.findIndex((b) => b.id === id);
 }
 
-export function isBeltId(value: string): value is BeltId {
-  return byId.has(value as BeltId);
-}
-
 /** Стабильная сортировка по поясу: внутри пояса сохраняется исходный порядок (порядок Кодокана). */
 export function sortByBelt<T extends { belt: BeltId }>(items: readonly T[]): T[] {
   return items
