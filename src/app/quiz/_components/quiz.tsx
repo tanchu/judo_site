@@ -2,9 +2,9 @@
 
 import { useState } from 'react';
 import type { TechniqueEntry } from '@/lib/dataset/types';
-import { generateQuiz, type Question } from '@/lib/quiz/generate';
-import { saveAttempt } from './history';
-import { QuizHistory } from './quiz-history';
+import { AttemptHistory } from '@/components/progress/attempt-history';
+import { getProgressRepository } from '@/lib/progress';
+import { generateQuiz, scoreByTopic, type QuizTopic, type Question } from '@/lib/quiz/generate';
 import { QuizQuestion } from './quiz-question';
 import { QuizResult } from './quiz-result';
 import { QuizSetup, type QuizSettings } from './quiz-setup';
@@ -18,6 +18,8 @@ type Run = {
   answers: (number | null)[];
   index: number;
   instant: boolean;
+  topics: QuizTopic[];
+  startedAt: string;
   done: boolean;
 };
 
@@ -26,14 +28,22 @@ export function Quiz({ techniques }: Props) {
 
   const start = ({ topics, count, instant }: QuizSettings) => {
     const questions = generateQuiz(techniques, topics, count);
-    setRun({ questions, answers: questions.map(() => null), index: 0, instant, done: false });
+    setRun({
+      questions,
+      answers: questions.map(() => null),
+      index: 0,
+      instant,
+      topics,
+      startedAt: new Date().toISOString(),
+      done: false,
+    });
   };
 
   if (!run) {
     return (
       <>
         <QuizSetup onStart={start} />
-        <QuizHistory />
+        <AttemptHistory title="Последние попытки" limit={5} />
       </>
     );
   }
@@ -51,8 +61,16 @@ export function Quiz({ techniques }: Props) {
       setRun({ ...run, index: run.index + 1 });
       return;
     }
-    const score = run.questions.filter((q, i) => run.answers[i] === q.answer).length;
-    saveAttempt({ date: new Date().toISOString(), score, total: run.questions.length });
+    const byTopic = scoreByTopic(run.questions, run.answers);
+    void getProgressRepository().saveAttempt({
+      testType: 'generated',
+      topics: run.topics,
+      questionCount: run.questions.length,
+      score: byTopic.reduce((sum, s) => sum + s.correct, 0),
+      byTopic,
+      startedAt: run.startedAt,
+      finishedAt: new Date().toISOString(),
+    });
     setRun({ ...run, done: true });
   };
 
