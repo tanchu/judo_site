@@ -50,6 +50,25 @@ export default function HomePage() {
         </p>
       </div>
 
+      <Section title="Подготовка к экзамену" description="Без регистрации — отметки и история хранятся в вашем браузере.">
+        <ul
+          className="
+            grid gap-3
+            sm:grid-cols-3
+          "
+        >
+          <li>
+            <TileLink href="/progress/checklist/" title="Чек-лист самооценки" subtitle="Что уже уверенно, что ещё учить" />
+          </li>
+          <li>
+            <TileLink href="/progress/my-list/" title="Мой чек-лист к экзамену" subtitle="Свои пункты: отметить и распечатать" />
+          </li>
+          <li>
+            <TileLink href="/etiquette/" title="Этикет экзамена" subtitle="Внешний вид, поклоны, порядок экзамена" />
+          </li>
+        </ul>
+      </Section>
+
       <Section title="Гокё-но-вадза" description="40 основных бросков Кодокана в пяти группах — порядок изучения.">
         <ul
           className="

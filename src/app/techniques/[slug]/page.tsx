@@ -6,6 +6,7 @@ import { getAllTechniques, getTechnique } from '@/lib/dataset';
 import { RIGHT_GRIP_NOTE } from '@/lib/dataset/labels';
 import { Note } from './_components/note';
 import { Facts } from './_components/facts';
+import { MyStatus } from './_components/my-status';
 import { Steps } from './_components/steps';
 import { Video } from './_components/video';
 
@@ -52,6 +53,7 @@ export default async function TechniquePage({ params }: Props) {
       {t.safetyNote && <Note tone="danger" title="Безопасность">{t.safetyNote.ru}</Note>}
       {t.competitionNote && <Note tone="info" title="Правила соревнований">{t.competitionNote}</Note>}
       <Facts technique={t} />
+      {!t.prohibited && <MyStatus slug={t.slug} name={t.name} />}
       {t.videoUrl && (
         <Section title="Видео">
           <Video url={t.videoUrl} title={`${t.name} — видео`} />

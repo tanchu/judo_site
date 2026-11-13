@@ -12,7 +12,7 @@
 
 Next.js 16 (App Router, статический экспорт) · React 19 · TypeScript · Tailwind CSS 4 · next-intl ·
 ESLint · Playwright + axe · pnpm. Бэкенда и БД нет: данные — JSON в репозитории, состояние
-пользователя — localStorage.
+пользователя — IndexedDB (Dexie), см. AGENTS.md §35.
 
 ## Разработка
 
