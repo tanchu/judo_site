@@ -1,6 +1,6 @@
 import raw from '@data/judo-dataset.json';
-import { ALL_GROUPS } from './labels';
-import type { Dataset, GokyoNumber, Group, TechniqueEntry } from './types';
+import { ALL_GROUPS, LISTED_SETS } from './labels';
+import type { Dataset, GokyoNumber, Group, TechniqueEntry, ThrowSet } from './types';
 
 const dataset = raw as Dataset;
 
@@ -55,4 +55,12 @@ export function getGokyoTechniques(n: GokyoNumber): TechniqueEntry[] {
   return (group?.techniques ?? [])
     .map((slug) => bySlug.get(slug))
     .filter((t): t is TechniqueEntry => t !== undefined);
+}
+
+export function getTechniquesBySet(set: ThrowSet): TechniqueEntry[] {
+  return entries.filter((t) => t.set === set);
+}
+
+export function isListedSet(value: string): value is (typeof LISTED_SETS)[number] {
+  return (LISTED_SETS as readonly string[]).includes(value);
 }

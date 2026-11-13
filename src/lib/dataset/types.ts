@@ -1,5 +1,5 @@
 /**
- * Схема `data/judo-dataset.json` (v0.2, бриф — стр. 5). Основа — классификация Кодокана / IJF,
+ * Схема `data/judo-dataset.json` (v0.3, бриф — стр. 5). Основа — классификация Кодокана / IJF,
  * без привязки к поясам: программы поясов по странам подключаются слоем `syllabi`.
  */
 export type Category = 'nage-waza' | 'katame-waza' | 'ukemi' | 'basics' | 'ne-waza-drill';
@@ -16,6 +16,9 @@ export type Group =
 
 export type GokyoNumber = 1 | 2 | 3 | 4 | 5;
 
+/** Набор бросков Кодокана: Гокё (40), Хабукарэта (8), Синмэйсё (20). */
+export type ThrowSet = 'gokyo' | 'habukareta' | 'shinmeisho';
+
 /** Откуда позиция: официальный список, основы или дополнительные элементы вне списка. */
 type Source = 'official' | 'fundamental' | 'supplementary';
 
@@ -26,8 +29,16 @@ type Technique = {
   translation: { ru: string; en: string };
   category: Category;
   group?: Group;
+  kanji?: string;
+  set?: ThrowSet;
   gokyo?: GokyoNumber;
   prohibited?: string;
+  /** У запрещённых техник вместо шагов — только описание. */
+  description?: { ru: string };
+  /** Удушения и болевые: правила безопасной отработки. */
+  safetyNote?: { ru: string };
+  /** Ограничения правил IJF (захваты ног и т. п.). */
+  competitionNote?: string;
   /** kuzushi → tsukuri → kake */
   steps?: { ru: string[] };
   commonMistake?: { ru: string };
@@ -40,8 +51,17 @@ export type Dataset = {
   meta: {
     version: string;
     basis: string;
-    counts: Record<string, number>;
+    counts: {
+      official: number;
+      fundamentals: number;
+      supplementary: number;
+      withSteps: number;
+    } & Record<string, unknown>;
     note: string;
+    /** Шаги описаны для правостороннего захвата. */
+    conventions: string;
+    sources: string[];
+    reviewStatus: string;
   };
   gokyoNoWaza: { group: GokyoNumber; techniques: string[] }[];
   techniques: Technique[];

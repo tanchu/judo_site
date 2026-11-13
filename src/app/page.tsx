@@ -7,8 +7,9 @@ import {
   getFundamentals,
   getGokyoTechniques,
   getTechniquesByGroup,
+  getTechniquesBySet,
 } from '@/lib/dataset';
-import { GROUP_LABELS, KATAME_GROUPS } from '@/lib/dataset/labels';
+import { GROUP_LABELS, KATAME_GROUPS, LISTED_SETS, SET_LABELS } from '@/lib/dataset/labels';
 import { TileLink } from './_components/tile-link';
 
 export default function HomePage() {
@@ -64,6 +65,26 @@ export default function HomePage() {
                 title={`${n}-я группа`}
                 subtitle={getGokyoTechniques(n).slice(0, 2).map((t) => t.name).join(', ') + '…'}
                 count={getGokyoTechniques(n).length}
+              />
+            </li>
+          ))}
+        </ul>
+      </Section>
+
+      <Section title="Другие броски Кодокана" description="Броски официального списка за пределами Гокё.">
+        <ul
+          className="
+            grid gap-3
+            sm:grid-cols-2
+          "
+        >
+          {LISTED_SETS.map((set) => (
+            <li key={set}>
+              <TileLink
+                href={`/sets/${set}/`}
+                title={SET_LABELS[set].name}
+                subtitle={SET_LABELS[set].ru}
+                count={getTechniquesBySet(set).length}
               />
             </li>
           ))}
