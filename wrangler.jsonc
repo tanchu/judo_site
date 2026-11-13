@@ -1,0 +1,10 @@
+{
+  // Статический сайт на Cloudflare Workers (static assets): `pnpm run build`, затем `wrangler deploy`.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "judo-site",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
