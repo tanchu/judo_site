@@ -1,4 +1,5 @@
 import type { QuizTopic, TopicScore } from '@/lib/quiz/generate';
+import type { BeltId } from '@/lib/dataset/types';
 
 /**
  * Данные пользователя (бриф, стр. 6). Этап A — только в браузере; поля повторяют коллекции
@@ -29,6 +30,8 @@ export type ExamAttempt = {
   id: string;
   testType: 'generated';
   topics: QuizTopic[];
+  /** Пояс, к экзамену на который готовился человек (если выбран). */
+  belt?: BeltId;
   questionCount: number;
   score: number;
   byTopic: TopicScore[];

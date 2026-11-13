@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import type { TechniqueEntry } from '@/lib/dataset/types';
+import type { TechniqueSummary } from '@/lib/dataset/types';
+import { TechniqueCard } from './technique-card';
 
 type Props = {
-  techniques: TechniqueEntry[];
+  techniques: TechniqueSummary[];
 };
 
 export function TechniqueList({ techniques }: Props) {
@@ -16,22 +16,7 @@ export function TechniqueList({ techniques }: Props) {
     >
       {techniques.map((t) => (
         <li key={t.slug}>
-          <Link
-            href={`/techniques/${t.slug}/`}
-            className="
-              block h-full rounded-lg border border-border bg-surface p-4
-              transition
-              hover:border-primary hover:shadow-sm
-            "
-          >
-            <span className="flex items-baseline justify-between gap-2">
-              <span className="font-semibold text-primary">{t.name}</span>
-              {t.kanji && (
-                <span lang="ja" className="text-sm text-text-muted">{t.kanji}</span>
-              )}
-            </span>
-            <span className="block text-sm text-text-muted">{t.translation.ru}</span>
-          </Link>
+          <TechniqueCard technique={t} />
         </li>
       ))}
     </ul>

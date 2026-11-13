@@ -2,12 +2,17 @@
 
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
+import type { BeltChoice } from '@/lib/dataset/belts';
 import { QUIZ_SIZES, QUIZ_TOPICS, type QuizTopic } from '@/lib/quiz/generate';
+import { BeltPicker } from './belt-picker';
 
 export type QuizSettings = {
   topics: QuizTopic[];
   count: number;
   instant: boolean;
+  belt: BeltChoice;
+  /** Вместе с техниками предыдущих поясов (как на настоящем экзамене). */
+  cumulative: boolean;
 };
 
 type Props = {
@@ -22,6 +27,8 @@ export function QuizSetup({ onStart }: Props) {
   const [topics, setTopics] = useState<QuizTopic[]>([...QUIZ_TOPICS]);
   const [count, setCount] = useState<number>(QUIZ_SIZES[0]);
   const [instant, setInstant] = useState(true);
+  const [belt, setBelt] = useState<BeltChoice>('all');
+  const [cumulative, setCumulative] = useState(true);
 
   const toggleTopic = (topic: QuizTopic) => {
     setTopics((prev) => (prev.includes(topic) ? prev.filter((x) => x !== topic) : [...prev, topic]));
@@ -32,9 +39,15 @@ export function QuizSetup({ onStart }: Props) {
       className="space-y-4"
       onSubmit={(e) => {
         e.preventDefault();
-        onStart({ topics, count, instant });
+        onStart({ topics, count, instant, belt, cumulative });
       }}
     >
+      <BeltPicker
+        belt={belt}
+        cumulative={cumulative}
+        onBeltChange={setBelt}
+        onCumulativeChange={setCumulative}
+      />
       <fieldset className={fieldset}>
         <legend className={legend}>{t('type')}</legend>
         {QUIZ_TOPICS.map((topic) => (

@@ -45,7 +45,22 @@ type Technique = {
   videoUrl?: string;
 };
 
-export type TechniqueEntry = Technique & { source: Source };
+/** Цвета поясов кю-ступеней и чёрный пояс (дан). */
+export type BeltId = 'yellow' | 'orange' | 'green' | 'blue' | 'brown' | 'black';
+
+/** Программа поясов: на экзамен на какой пояс требуется техника. */
+export type Syllabus = {
+  id: string;
+  name: { ru: string };
+  description: { ru: string };
+  belts: BeltId[];
+  assignments: Record<string, BeltId>;
+};
+
+export type TechniqueEntry = Technique & { source: Source; belt: BeltId };
+
+/** Поля карточки в списках — без шагов и текстов, чтобы не тянуть весь набор в клиентский бандл. */
+export type TechniqueSummary = Pick<TechniqueEntry, 'slug' | 'name' | 'kanji' | 'translation' | 'belt'>;
 
 export type Dataset = {
   meta: {
@@ -67,5 +82,5 @@ export type Dataset = {
   techniques: Technique[];
   fundamentals: Technique[];
   supplementary: Technique[];
-  syllabi: unknown[];
+  syllabi: Syllabus[];
 };
