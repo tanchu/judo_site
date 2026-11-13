@@ -15,6 +15,13 @@
   --color-success-soft: #e6f3ea;
   --color-warning: #8a5300;
   --color-warning-soft: #fdf1dc;
+  /* Пояса: рамки карточек и фильтр. Жёлтый и оранжевый подобраны так, чтобы рамка читалась на белом. */
+  --color-belt-yellow: #e0b100;
+  --color-belt-orange: #e8771e;
+  --color-belt-green: #2f8f3e;
+  --color-belt-blue: #2a5bd7;
+  --color-belt-brown: #7a4a24;
+  --color-belt-black: #1c1b19;
   --font-body: var(--font-noto-sans), system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 

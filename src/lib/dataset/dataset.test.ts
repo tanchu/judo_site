@@ -1,11 +1,13 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
+import { beltRank, filterForBelt, sortByBelt } from './belts';
 import {
   GOKYO_NUMBERS,
   getAllTechniques,
   getGokyoTechniques,
   getOfficialTechniques,
   getTechnique,
+  getSyllabus,
   getTechniquesBySet,
 } from './index';
 
@@ -72,4 +74,39 @@ test('у удушений и болевых есть правила безопа
       assert.ok(t.safetyNote?.ru, t.slug);
     }
   }
+});
+
+test('у каждой позиции есть пояс программы по умолчанию', () => {
+  const syllabus = getSyllabus();
+  for (const t of getAllTechniques()) {
+    assert.ok(syllabus.assignments[t.slug], t.slug);
+    assert.ok(syllabus.belts.includes(t.belt), t.slug);
+  }
+});
+
+test('группы Гокё распределены по поясам от жёлтого до коричневого', () => {
+  const expected = ['yellow', 'orange', 'green', 'blue', 'brown'];
+  for (const n of GOKYO_NUMBERS) {
+    for (const t of getGokyoTechniques(n)) {
+      assert.equal(t.belt, expected[n - 1], t.slug);
+    }
+  }
+});
+
+test('экзамен на пояс накопительный: включает техники предыдущих поясов', () => {
+  const all = getAllTechniques();
+  const yellow = filterForBelt(all, 'yellow', true);
+  const orange = filterForBelt(all, 'orange', true);
+  const orangeOnly = filterForBelt(all, 'orange', false);
+  assert.ok(yellow.length > 0);
+  assert.equal(orange.length, yellow.length + orangeOnly.length);
+  assert.ok(orangeOnly.every((t) => t.belt === 'orange'));
+});
+
+test('sortByBelt сохраняет порядок внутри пояса', () => {
+  const sorted = sortByBelt(getOfficialTechniques());
+  const ranks = sorted.map((t) => beltRank(t.belt));
+  assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b));
+  const yellowOrder = getOfficialTechniques().filter((t) => t.belt === 'yellow').map((t) => t.slug);
+  assert.deepEqual(sorted.filter((t) => t.belt === 'yellow').map((t) => t.slug), yellowOrder);
 });

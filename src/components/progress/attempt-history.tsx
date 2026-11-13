@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { getBelt } from '@/lib/dataset/belts';
 import { useAttempts } from '@/lib/progress/hooks';
 
 type Props = {
@@ -37,6 +38,9 @@ export function AttemptHistory({ title, limit }: Props) {
             <span className="font-semibold">
               {`${a.score} / ${a.questionCount} · ${Math.round((a.score / a.questionCount) * 100)}%`}
             </span>
+            {a.belt && (
+              <span className="text-sm">{t('beltShort', { belt: getBelt(a.belt).ru })}</span>
+            )}
             {a.byTopic.length > 0 && (
               <span className="w-full text-sm text-text-muted">
                 {a.byTopic.map((s) => `${t(`topics.${s.topic}`)}: ${s.correct}/${s.total}`).join(' · ')}
