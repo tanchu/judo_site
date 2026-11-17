@@ -1,0 +1,340 @@
+header min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-bottom-width:1px
+div display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; row-gap:16px; column-gap:16px; margin-right:auto; margin-left:auto; padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; max-width:1024px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a min-height:auto; font-size:18px; font-weight:700; line-height:28px; color:oklch(0.3276 0.0678 257.27)
+span display:inline; margin-right:8px; font-size:18px; font-weight:700; line-height:28px; color:oklch(0.5013 0.1783 28.7)
+nav min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+ul display:flex; flex-wrap:wrap; row-gap:8px; column-gap:20px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+main margin-right:auto; margin-left:auto; padding-top:32px; padding-right:16px; padding-bottom:32px; padding-left:16px; max-width:1024px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div margin-bottom:32px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h1 font-size:30px; font-weight:700; line-height:36px; color:oklch(0.3276 0.0678 257.27)
+p margin-top:8px; font-size:18px; font-weight:400; line-height:28px; color:oklch(0.4753 0.0117 87.53)
+nav font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+ul display:flex; flex-wrap:wrap; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline-block; padding-top:4px; padding-right:12px; padding-bottom:4px; padding-left:12px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline-block; padding-top:4px; padding-right:12px; padding-bottom:4px; padding-left:12px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline-block; padding-top:4px; padding-right:12px; padding-bottom:4px; padding-left:12px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline-block; padding-top:4px; padding-right:12px; padding-bottom:4px; padding-left:12px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline-block; padding-top:4px; padding-right:12px; padding-bottom:4px; padding-left:12px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+div font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dl font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dl font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dl font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dl font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dl font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-bottom-width:1px
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:grid; grid-template-columns:1 кол.; row-gap:4px; column-gap:4px; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+dt min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+dd min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+p margin-top:32px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+a display:inline; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.3276 0.0678 257.27)
+a display:inline; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.3276 0.0678 257.27)
+footer margin-top:64px; padding-top:32px; padding-bottom:32px; min-height:auto; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53); border-top-width:1px
+div margin-right:auto; margin-left:auto; padding-right:16px; padding-left:16px; max-width:1024px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+p margin-bottom:8px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+p font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)

@@ -1,0 +1,230 @@
+header min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-bottom-width:1px
+div display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; row-gap:16px; column-gap:16px; margin-right:auto; margin-left:auto; padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; max-width:1024px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a min-height:auto; font-size:18px; font-weight:700; line-height:28px; color:oklch(0.3276 0.0678 257.27)
+span display:inline; margin-right:8px; font-size:18px; font-weight:700; line-height:28px; color:oklch(0.5013 0.1783 28.7)
+nav min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+ul display:flex; flex-wrap:wrap; row-gap:8px; column-gap:20px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+main margin-right:auto; margin-left:auto; padding-top:32px; padding-right:16px; padding-bottom:32px; padding-left:16px; max-width:1024px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div padding-top:40px; padding-right:24px; padding-bottom:40px; padding-left:24px; font-size:16px; font-weight:400; line-height:24px; color:rgb(255, 255, 255); background-color:oklch(0.3276 0.0678 257.27); border-radius:16px
+h1 font-size:30px; font-weight:700; line-height:36px; color:rgb(255, 255, 255)
+p margin-top:12px; max-width:672px; font-size:18px; font-weight:400; line-height:28px; color:oklab(0.999994 0.0000455678 0.0000200868 / 0.85)
+p display:flex; flex-wrap:wrap; row-gap:12px; column-gap:12px; margin-top:24px; font-size:16px; font-weight:400; line-height:24px; color:rgb(255, 255, 255)
+a padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px; min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:rgb(255, 255, 255); background-color:oklch(0.5013 0.1783 28.7); border-radius:8px
+a padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px; min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:rgb(255, 255, 255); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+p margin-top:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.4753 0.0117 87.53)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+ul display:grid; grid-template-columns:1 кол.; row-gap:12px; column-gap:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+p margin-top:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.4753 0.0117 87.53)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+ul display:grid; grid-template-columns:1 кол.; row-gap:12px; column-gap:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+p margin-top:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.4753 0.0117 87.53)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+ul display:grid; grid-template-columns:1 кол.; row-gap:12px; column-gap:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+p margin-top:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.4753 0.0117 87.53)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+ul display:grid; grid-template-columns:1 кол.; row-gap:12px; column-gap:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+span font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+section margin-top:40px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h2 font-size:24px; font-weight:600; line-height:32px; color:oklch(0.2225 0.0041 84.59)
+p margin-top:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.4753 0.0117 87.53)
+div margin-top:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+ul display:grid; grid-template-columns:1 кол.; row-gap:12px; column-gap:12px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span min-height:auto; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span min-height:auto; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span min-height:auto; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span min-height:auto; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.6871 0.1666 52); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.5753 0.1479 146); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.6871 0.1666 52); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.6871 0.1666 52); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.6871 0.1666 52); border-radius:3.35544e+07px
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:2px; border-bottom-width:2px; border-left-width:2px; border-right-width:2px; border-radius:8px
+span display:flex; align-items:baseline; justify-content:space-between; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+span min-height:auto; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.3276 0.0678 257.27)
+span font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+span display:flex; align-items:center; row-gap:6px; column-gap:6px; margin-top:8px; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53)
+span min-height:auto; font-size:12px; font-weight:400; line-height:16px; color:oklch(0.4753 0.0117 87.53); background-color:oklch(0.5753 0.1479 146); border-radius:3.35544e+07px
+footer margin-top:64px; padding-top:32px; padding-bottom:32px; min-height:auto; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53); border-top-width:1px
+div margin-right:auto; margin-left:auto; padding-right:16px; padding-left:16px; max-width:1024px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+p margin-bottom:8px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+p font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)

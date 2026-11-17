@@ -1,0 +1,74 @@
+header min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-bottom-width:1px
+div display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; row-gap:16px; column-gap:16px; margin-right:auto; margin-left:auto; padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; max-width:1024px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a min-height:auto; font-size:18px; font-weight:700; line-height:28px; color:oklch(0.3276 0.0678 257.27)
+span display:inline; margin-right:8px; font-size:18px; font-weight:700; line-height:28px; color:oklch(0.5013 0.1783 28.7)
+nav min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+ul display:flex; flex-wrap:wrap; row-gap:8px; column-gap:20px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+li display:list-item; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+a display:inline; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+main margin-right:auto; margin-left:auto; padding-top:32px; padding-right:16px; padding-bottom:32px; padding-left:16px; max-width:1024px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div margin-bottom:32px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+h1 font-size:30px; font-weight:700; line-height:36px; color:oklch(0.3276 0.0678 257.27)
+p margin-top:8px; font-size:18px; font-weight:400; line-height:28px; color:oklch(0.4753 0.0117 87.53)
+form font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+fieldset margin-bottom:16px; padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+legend padding-right:4px; padding-left:4px; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:flex; flex-wrap:wrap; row-gap:8px; column-gap:8px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:6px; padding-right:12px; padding-bottom:6px; padding-left:12px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:6px; padding-right:12px; padding-bottom:6px; padding-left:12px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+span min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(0.7808 0.1595 89.38); border-radius:3.35544e+07px
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:6px; padding-right:12px; padding-bottom:6px; padding-left:12px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+span min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(0.6871 0.1666 52); border-radius:3.35544e+07px
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:6px; padding-right:12px; padding-bottom:6px; padding-left:12px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+span min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(0.5753 0.1479 146); border-radius:3.35544e+07px
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:6px; padding-right:12px; padding-bottom:6px; padding-left:12px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+span min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(0.5156 0.198 264.18); border-radius:3.35544e+07px
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:6px; padding-right:12px; padding-bottom:6px; padding-left:12px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+span min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(0.457 0.0837 56.87); border-radius:3.35544e+07px
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:6px; padding-right:12px; padding-bottom:6px; padding-left:12px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:3.35544e+07px
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+span min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(0.2225 0.0041 84.59); border-radius:3.35544e+07px
+fieldset margin-bottom:16px; padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+legend padding-right:4px; padding-left:4px; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:4px; padding-bottom:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:4px; padding-bottom:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:4px; padding-bottom:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+fieldset margin-bottom:16px; padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+legend padding-right:4px; padding-left:4px; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+div display:flex; row-gap:16px; column-gap:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+fieldset margin-bottom:16px; padding-top:16px; padding-right:16px; padding-bottom:16px; padding-left:16px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); background-color:oklch(1 0 0); border-top-width:1px; border-bottom-width:1px; border-left-width:1px; border-right-width:1px; border-radius:8px
+legend padding-right:4px; padding-left:4px; font-size:16px; font-weight:600; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:4px; padding-bottom:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+label display:flex; align-items:center; row-gap:8px; column-gap:8px; padding-top:4px; padding-bottom:4px; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59)
+input min-height:auto; font-size:16px; font-weight:400; line-height:24px; color:oklch(0.2225 0.0041 84.59); border-radius:50%
+button display:inline-block; padding-top:10px; padding-right:24px; padding-bottom:10px; padding-left:24px; font-size:16px; font-weight:600; line-height:24px; text-align:center; color:rgb(255, 255, 255); background-color:oklch(0.5013 0.1783 28.7); border-radius:8px
+footer margin-top:64px; padding-top:32px; padding-bottom:32px; min-height:auto; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53); border-top-width:1px
+div margin-right:auto; margin-left:auto; padding-right:16px; padding-left:16px; max-width:1024px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+p margin-bottom:8px; font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
+p font-size:14px; font-weight:400; line-height:20px; color:oklch(0.4753 0.0117 87.53)
