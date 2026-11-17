@@ -1,27 +1,29 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: #fbfaf7;
-  --color-surface: #ffffff;
-  --color-text: #1c1b19;
-  --color-text-muted: #5f5c55;
-  --color-border: #e4e0d6;
+  --color-bg: oklch(98.5% 0.0041 91.45);
+  --color-surface: oklch(100% 0 0);
+  --color-text: oklch(22.25% 0.0041 84.59);
+  --color-text-muted: oklch(47.53% 0.0117 87.53);
+  --color-border: oklch(90.71% 0.0141 88.69);
+
   /* Цвета пояса: красный — акцент, тёмно-синий — основной (контраст WCAG AA на светлом фоне). */
-  --color-accent: #b3261e;
-  --color-accent-soft: #fbeceb;
-  --color-primary: #1d3557;
-  --color-primary-soft: #e8edf4;
-  --color-success: #1b6e3a;
-  --color-success-soft: #e6f3ea;
-  --color-warning: #8a5300;
-  --color-warning-soft: #fdf1dc;
+  --color-accent: oklch(50.13% 0.1783 28.7);
+  --color-accent-soft: oklch(95.47% 0.0164 22.08);
+  --color-primary: oklch(32.76% 0.0678 257.27);
+  --color-primary-soft: oklch(94.43% 0.0109 256.7);
+  --color-success: oklch(47.64% 0.1135 151.38);
+  --color-success-soft: oklch(95.19% 0.0182 155.81);
+  --color-warning: oklch(49.4% 0.1093 66.91);
+  --color-warning-soft: oklch(96.2% 0.0305 81.76);
+
   /* Пояса: рамки карточек и фильтр. Жёлтый и оранжевый подобраны так, чтобы рамка читалась на белом. */
-  --color-belt-yellow: #e0b100;
-  --color-belt-orange: #e8771e;
-  --color-belt-green: #2f8f3e;
-  --color-belt-blue: #2a5bd7;
-  --color-belt-brown: #7a4a24;
-  --color-belt-black: #1c1b19;
+  --color-belt-yellow: oklch(78.08% 0.1595 89.38);
+  --color-belt-orange: oklch(68.71% 0.1666 52);
+  --color-belt-green: oklch(57.53% 0.1479 146);
+  --color-belt-blue: oklch(51.56% 0.198 264.18);
+  --color-belt-brown: oklch(45.7% 0.0837 56.87);
+  --color-belt-black: oklch(22.25% 0.0041 84.59);
   --font-body: var(--font-noto-sans), system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
@@ -33,12 +35,12 @@ body {
 
 /* Печать карточек на A4 (бриф, стр. 2 — «Печать»). */
 @page {
-  size: A4;
+  size: a4;
   margin: 15mm;
 }
 
 @media print {
   body {
-    background: #fff;
+    background: oklch(100% 0 0);
   }
 }
