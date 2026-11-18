@@ -1,5 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie';
-import { mergeByUpdatedAt, newId } from './merge';
+import { mergeByUpdatedAt, newId } from '@/lib/progress/merge';
 import type {
   ChecklistStatus,
   CustomItem,
@@ -8,7 +8,7 @@ import type {
   ProgressExport,
   ProgressRepository,
   StatusRecord,
-} from './types';
+} from '@/lib/progress/types';
 
 class ProgressDb extends Dexie {
   statuses!: EntityTable<StatusRecord, 'techniqueSlug'>;

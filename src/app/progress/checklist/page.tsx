@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { PageHeader } from '@/components/page-header';
 import { getChecklistScopes } from '@/lib/progress/scopes';
-import { ChecklistBoard } from './_components/checklist-board';
+import { ChecklistBoard } from '@/app/progress/checklist/_components/checklist-board';
 
 export const metadata: Metadata = {
   title: 'Чек-лист самооценки',

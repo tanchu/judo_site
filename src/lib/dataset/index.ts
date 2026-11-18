@@ -1,6 +1,6 @@
 import raw from '@data/judo-dataset.json';
-import { ALL_GROUPS, LISTED_SETS } from './labels';
-import type { Dataset, GokyoNumber, Group, Syllabus, TechniqueEntry, TechniqueSummary, ThrowSet } from './types';
+import { ALL_GROUPS, LISTED_SETS } from '@/lib/dataset/labels';
+import type { Dataset, GokyoNumber, Group, Syllabus, TechniqueEntry, TechniqueSummary, ThrowSet } from '@/lib/dataset/types';
 
 const dataset = raw as Dataset;
 

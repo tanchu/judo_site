@@ -2,8 +2,8 @@
 
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useEffect } from 'react';
-import type { ChecklistStatus } from './types';
-import { getProgressRepository } from './index';
+import type { ChecklistStatus } from '@/lib/progress/types';
+import { getProgressRepository } from '@/lib/progress/index';
 
 /** `undefined` — пока данные грузятся (и при статической сборке). */
 export function useStatuses(): Map<string, ChecklistStatus> | undefined {

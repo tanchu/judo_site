@@ -4,8 +4,8 @@ import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { getProgressRepository } from '@/lib/progress';
 import { useCustomItems } from '@/lib/progress/hooks';
-import { PrintButton } from '../../_components/print-button';
-import { MyListItem } from './my-list-item';
+import { PrintButton } from '@/components/progress/print-button';
+import { MyListItem } from '@/app/progress/my-list/_components/my-list-item';
 
 /** Подсказки для пустого списка — пользователь может добавить их одним нажатием. */
 const SUGGESTIONS = [

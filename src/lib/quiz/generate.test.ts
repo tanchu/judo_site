@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { getOfficialTechniques } from '@/lib/dataset';
-import { QUIZ_TOPICS, generateQuiz, scoreByTopic, seededRandom } from './generate';
+import { QUIZ_TOPICS, generateQuiz, scoreByTopic, seededRandom } from '@/lib/quiz/generate';
 
 const techniques = getOfficialTechniques();
 

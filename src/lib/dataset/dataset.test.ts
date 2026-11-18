@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { beltRank, filterForBelt, sortByBelt } from './belts';
+import { beltRank, filterForBelt, sortByBelt } from '@/lib/dataset/belts';
 import {
   GOKYO_NUMBERS,
   getAllTechniques,
@@ -9,7 +9,7 @@ import {
   getTechnique,
   getSyllabus,
   getTechniquesBySet,
-} from './index';
+} from '@/lib/dataset/index';
 
 test('официальный список Кодокана — 100 техник: 68 нагэ-вадза и 32 катамэ-вадза', () => {
   const official = getOfficialTechniques();

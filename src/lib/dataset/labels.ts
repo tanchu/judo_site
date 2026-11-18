@@ -1,4 +1,4 @@
-import type { Category, Group, ThrowSet } from './types';
+import type { Category, Group, ThrowSet } from '@/lib/dataset/types';
 
 type Label = { name: string; ru: string };
 

@@ -1,4 +1,4 @@
-import type { BeltId } from './types';
+import type { BeltId } from '@/lib/dataset/types';
 
 type Belt = {
   id: BeltId;

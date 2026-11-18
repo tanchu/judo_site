@@ -1,4 +1,4 @@
-import type { ChecklistStatus } from './types';
+import type { ChecklistStatus } from '@/lib/progress/types';
 
 /**
  * Ссылка-«снимок» чек-листа: данные целиком в `#фрагменте` URL, на сервер не уходят.
