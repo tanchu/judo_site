@@ -4,11 +4,11 @@ import { PageHeader } from '@/components/page-header';
 import { Section } from '@/components/section';
 import { getAllTechniques, getTechnique } from '@/lib/dataset';
 import { RIGHT_GRIP_NOTE } from '@/lib/dataset/labels';
-import { Note } from './_components/note';
-import { Facts } from './_components/facts';
-import { MyStatus } from './_components/my-status';
-import { Steps } from './_components/steps';
-import { Video } from './_components/video';
+import { Note } from '@/app/techniques/[slug]/_components/note';
+import { Facts } from '@/app/techniques/[slug]/_components/facts';
+import { MyStatus } from '@/app/techniques/[slug]/_components/my-status';
+import { Steps } from '@/app/techniques/[slug]/_components/steps';
+import { Video } from '@/app/techniques/[slug]/_components/video';
 
 type Props = { params: Promise<{ slug: string }> };
 

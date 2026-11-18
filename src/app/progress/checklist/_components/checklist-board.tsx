@@ -7,8 +7,8 @@ import { StatusPicker } from '@/components/progress/status-picker';
 import { useStatuses } from '@/lib/progress/hooks';
 import type { ChecklistScope } from '@/lib/progress/scopes';
 import { CHECKLIST_STATUSES, type ChecklistStatus } from '@/lib/progress/types';
-import { PrintButton } from '../../_components/print-button';
-import { ScopeSummary } from './scope-summary';
+import { PrintButton } from '@/components/progress/print-button';
+import { ScopeSummary } from '@/app/progress/checklist/_components/scope-summary';
 
 type Props = {
   scopes: ChecklistScope[];

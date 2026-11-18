@@ -10,7 +10,7 @@ import {
   getTechniquesBySet,
 } from '@/lib/dataset';
 import { GROUP_LABELS, KATAME_GROUPS, LISTED_SETS, SET_LABELS } from '@/lib/dataset/labels';
-import { TileLink } from './_components/tile-link';
+import { TileLink } from '@/components/tile-link';
 
 export default function HomePage() {
   return (

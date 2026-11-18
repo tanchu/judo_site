@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { PageHeader } from '@/components/page-header';
 import { getChecklistScopes } from '@/lib/progress/scopes';
-import { SnapshotView } from './_components/snapshot-view';
+import { SnapshotView } from '@/app/snapshot/_components/snapshot-view';
 
 export const metadata: Metadata = {
   title: 'Чек-лист по ссылке',

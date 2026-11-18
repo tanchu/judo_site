@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { PageHeader } from '@/components/page-header';
 import { AttemptHistory } from '@/components/progress/attempt-history';
 import { getChecklistScopes } from '@/lib/progress/scopes';
-import { DataPanel } from './_components/data-panel';
-import { Overview } from './_components/overview';
+import { DataPanel } from '@/app/progress/_components/data-panel';
+import { Overview } from '@/app/progress/_components/overview';
 
 export const metadata: Metadata = {
   title: 'Мой прогресс',

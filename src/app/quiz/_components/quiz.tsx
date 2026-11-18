@@ -6,9 +6,9 @@ import { AttemptHistory } from '@/components/progress/attempt-history';
 import { filterForBelt } from '@/lib/dataset/belts';
 import { getProgressRepository } from '@/lib/progress';
 import { generateQuiz, scoreByTopic, type QuizTopic, type Question } from '@/lib/quiz/generate';
-import { QuizQuestion } from './quiz-question';
-import { QuizResult } from './quiz-result';
-import { QuizSetup, type QuizSettings } from './quiz-setup';
+import { QuizQuestion } from '@/app/quiz/_components/quiz-question';
+import { QuizResult } from '@/app/quiz/_components/quiz-result';
+import { QuizSetup, type QuizSettings } from '@/app/quiz/_components/quiz-setup';
 
 type Props = {
   techniques: TechniqueEntry[];

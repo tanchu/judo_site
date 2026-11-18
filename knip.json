@@ -1,4 +1,10 @@
 {
   "$schema": "https://unpkg.com/knip@6/schema.json",
-  "entry": ["src/**/*.test.ts"]
+  "entry": [
+    "src/**/*.test.ts"
+  ],
+  "ignoreDependencies": [
+    "@tanchu/agent-rules",
+    "@tanchu/browserslist-config"
+  ]
 }

@@ -1,4 +1,4 @@
-import type { ProgressExport } from './types';
+import type { ProgressExport } from '@/lib/progress/types';
 
 type Versioned = { updatedAt: string };
 

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { PageHeader } from '@/components/page-header';
 import { getOfficialTechniques } from '@/lib/dataset';
-import { Quiz } from './_components/quiz';
+import { Quiz } from '@/app/quiz/_components/quiz';
 
 export const metadata: Metadata = {
   title: 'Тесты',

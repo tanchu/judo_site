@@ -1,5 +1,5 @@
-import { LocalRepository } from './local';
-import type { ProgressRepository } from './types';
+import { LocalRepository } from '@/lib/progress/local';
+import type { ProgressRepository } from '@/lib/progress/types';
 
 let repository: ProgressRepository | null = null;
 

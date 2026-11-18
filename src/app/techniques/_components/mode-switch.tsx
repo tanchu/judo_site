@@ -1,5 +1,5 @@
 import { cn } from '@/lib/cn';
-import { CATALOG_MODES, MODE_LABELS, type CatalogMode } from '../_lib/sections';
+import { CATALOG_MODES, MODE_LABELS, type CatalogMode } from '@/app/techniques/_lib/sections';
 
 type Props = {
   value: CatalogMode;

@@ -1,5 +1,5 @@
 import type { TechniqueSummary } from '@/lib/dataset/types';
-import { TechniqueCard } from './technique-card';
+import { TechniqueCard } from '@/components/technique/technique-card';
 
 type Props = {
   techniques: TechniqueSummary[];
