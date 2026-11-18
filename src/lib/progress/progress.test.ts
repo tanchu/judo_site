@@ -1,9 +1,9 @@
 import 'fake-indexeddb/auto';
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { LocalRepository } from './local';
-import { isProgressExport, mergeByUpdatedAt, newId } from './merge';
-import { decodeSnapshot, encodeSnapshot } from './snapshot';
+import { LocalRepository } from '@/lib/progress/local';
+import { isProgressExport, mergeByUpdatedAt, newId } from '@/lib/progress/merge';
+import { decodeSnapshot, encodeSnapshot } from '@/lib/progress/snapshot';
 
 let dbCounter = 0;
 const freshRepo = () => new LocalRepository(`test-${++dbCounter}`);

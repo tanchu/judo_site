@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { PageHeader } from '@/components/page-header';
 import { getSyllabus } from '@/lib/dataset';
-import { TechniqueCatalog } from './_components/technique-catalog';
-import { getCatalog } from './_lib/sections';
+import { TechniqueCatalog } from '@/app/techniques/_components/technique-catalog';
+import { getCatalog } from '@/app/techniques/_lib/sections';
 
 export const metadata: Metadata = {
   title: 'Все техники',

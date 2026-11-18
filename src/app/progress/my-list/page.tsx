@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { PageHeader } from '@/components/page-header';
-import { MyList } from './_components/my-list';
+import { MyList } from '@/app/progress/my-list/_components/my-list';
 
 export const metadata: Metadata = {
   title: 'Мой чек-лист к экзамену',

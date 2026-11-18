@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import type { BeltChoice } from '@/lib/dataset/belts';
 import { QUIZ_SIZES, QUIZ_TOPICS, type QuizTopic } from '@/lib/quiz/generate';
-import { BeltPicker } from './belt-picker';
+import { BeltPicker } from '@/app/quiz/_components/belt-picker';
 
 export type QuizSettings = {
   topics: QuizTopic[];

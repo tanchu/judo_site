@@ -5,9 +5,9 @@ import { useState } from 'react';
 import { Section } from '@/components/section';
 import { TechniqueList } from '@/components/technique/technique-list';
 import type { BeltChoice } from '@/lib/dataset/belts';
-import type { CatalogMode, CatalogSection } from '../_lib/sections';
-import { BeltFilter } from './belt-filter';
-import { ModeSwitch } from './mode-switch';
+import type { CatalogMode, CatalogSection } from '@/app/techniques/_lib/sections';
+import { BeltFilter } from '@/app/techniques/_components/belt-filter';
+import { ModeSwitch } from '@/app/techniques/_components/mode-switch';
 
 type Props = {
   catalog: Record<CatalogMode, CatalogSection[]>;

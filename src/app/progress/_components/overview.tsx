@@ -1,6 +1,6 @@
 'use client';
 
-import { TileLink } from '@/app/_components/tile-link';
+import { TileLink } from '@/components/tile-link';
 import { useAttempts, useCustomItems, useStatuses } from '@/lib/progress/hooks';
 
 type Props = {
