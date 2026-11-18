@@ -5,8 +5,9 @@ name: CI
 on:
   pull_request:
     branches: [main]
-  push:
-    branches: [main]
+  # Проверки идут на PR (до merge) и перед выпуском — их вызывает deploy/release
+  # через workflow_call. На push в main не запускаются: код в main уже проверен в PR.
+  workflow_call:
 
 # Принцип наименьших привилегий: zero-perms по умолчанию.
 # Каждый job явно объявляет нужные scope.
